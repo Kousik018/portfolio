@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SIGN IN FORM</title>
+    <style>
+        body {
+            background-color: red;
+        }
+
+        form {
+            border: 3px solid black;
+        }
+
+        .form-box {
+            background-color: aliceblue;
+            padding: 10px;
+            border-radius: 3px;
+            width: 200px;
+            margin-left: 300px;
+        }
+
+        .form-box h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            padding: 4px;
+            border-radius: 3px;
+            width: 200px;
+        }
+
+        .row {
+            display: inline;
+            gap: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+            margin-left: 150px;
+        }
+
+        .input-group {
+            align-items: left;
+            margin-left: 150px;
+            margin-bottom: 20px;
+        }
+
+        .input-group1 {
+            align-items: left;
+             margin-left: 150px;
+            margin-bottom: 20px;
+           
+        }
+
+        .cancel-button {
+            width: center;
+             margin-top: 10px;;
+            margin-bottom: 20px;
+            background-color: blue;
+            text-align: center;
+            padding-right: 20px;
+            margin-left: 150px;
+
+        }
+       
+      .external{
+        margin-left: 150px;
+      }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="form-box">
+        <h2>Sign In</Form>
+        </h2>
+    </div>
+
+    <form>
+        <div class="row">
+            <div class="input-group">
+                <label>User Name <br></label>
+                <input type="text" placeholder="Enter User Name">
+
+            </div class="row">
+        <div class="input-group1">
+        <label>Password<br></label>
+        <input type="password" placeholder="Enter the Password">
+        </div>
+        <div>
+            <button type="submit" class="cancel-button">Submit</button>
+        </div>
+
+        <div>
+            <label>
+                <input type="checkbox" class="external">Remember Me
+            </label>
+        </div>
+
+        <div>
+            <button type="button" class="cancel-button">Cancel</button>
+        </div>
+    <div class="external">
+
+                <label text-align="padding-right" > Forget Password?</label>
+        </div>
+    </form>
+    </div>
+
+</body>
+
+</html>
